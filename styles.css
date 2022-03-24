@@ -1,0 +1,25 @@
+body {
+  font-size: 15px;
+  background-color: hsl(220, 15%, 55%);
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Card Container */
+.card-container {
+  width: 90%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+
+/* QR Image */
+.qr-image {
+  width: 275px;
+  border-radius: 15px;
+}
+
+
+/* Text */
+
+h1 {
+
+}
