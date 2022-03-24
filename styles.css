@@ -1,6 +1,6 @@
 body {
   font-size: 15px;
-  background-color: hsl(220, 15%, 55%);
+  background-color: hsl(212, 45%, 89%);
   font-family: 'Outfit', sans-serif;
 }
 
@@ -9,17 +9,53 @@ body {
   width: 90%;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* QR Image */
+.qr-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+
 .qr-image {
-  width: 275px;
-  border-radius: 15px;
+  width: 300px;
+  border-radius: 10px;
 }
 
 
 /* Text */
 
-h1 {
+.text-container {
+  width: 84%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
 
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+}
+
+
+/* Desktop */
+
+@media only screen and (min-width: 1440px) {
+  .card-container {
+    width: 340px;
+  }
 }
